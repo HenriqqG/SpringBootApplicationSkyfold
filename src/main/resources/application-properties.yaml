@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: '@project.artifactId@'
+
+security:
+  accessControl:
+    enable-https: true
+    allowMethods: DELETE, GET, HEAD, OPTIONS, POST, PUT
+    allowHeaders: Access-Control-Allow-Origin, Accept, Accept-Ranges, Content-Type, Cache-Control, Content-Length, Origin, Range, X-HTTP-Method-Override, X-Requested-With, Authorization, Credential, X-XSRF-TOKEN, Page-Number, Page-Size
+    allowOrigins: http://localhost:8080, http://127.0.0.1:8080, http://127.0.0.1:4200, http://localhost:4200, https://localhost:8243, https://localhost:9443
+    maxAge: 86400
