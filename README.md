@@ -30,6 +30,3 @@ A estrutura do projeto segue as convenções padrão do Spring Boot:
 - `src/main/java`: Contém o código-fonte Java.
 - `src/main/resources`: Contém arquivos de configuração e recursos.
 - `src/test`: Contém testes automatizados.
-
-#### Nota:
-> Este README fornece informações básicas sobre como iniciar e usar o projeto, bem como uma visão geral da estrutura do projeto e dos recursos incluídos. Certifique-se de personalizar conforme necessário para atender às necessidades específicas do seu projeto.
